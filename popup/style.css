@@ -1,0 +1,74 @@
+/* popup/style.css */
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+  }
+  
+  .container {
+	width: 300px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+  }
+  
+  .logo {
+	width: 60px;
+	height: 60px;
+	margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background-color: #f8f8f8;
+	font-size: 14px;
+  }
+  
+  input[type="submit"] {
+	background-color: #0078e7;
+	color: #fff;
+	border: none;
+	padding: 12px 20px;
+	margin-top: 20px;
+	cursor: pointer;
+	font-size: 14px;
+  }
+  
+  input[type="submit"]:hover {
+	background-color: #0061b5;
+  }
+  
+  .error-message {
+	color: #ff0000;
+	margin-bottom: 10px;
+  }
+  
+  .service-selection {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 20px;
+  }
+  
+  .service-selection img {
+	width: 100px;
+	height: auto;
+	cursor: pointer;
+  }
+  
+  .selected-service {
+	border: 2px solid #0078e7;
+  }
+  
+  .service-selection img:hover {
+	border: 2px solid #0078e7;
+  }
+  
